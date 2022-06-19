@@ -1,0 +1,21 @@
+body {
+background-color: green;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  animation-name: buble;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buble {
+  0%   {background-color:purple; left:0px; top:0px;}
+  25%  {background-color:darkmagenta; left:200px; top:0px;}
+  50%  {background-color:violet; left:200px; top:200px;}
+  75%  {background-color:rebeccapurple; left:0px; top:200px;}
+  100% {background-color:purple; left:0px; top:0px;}
+}
